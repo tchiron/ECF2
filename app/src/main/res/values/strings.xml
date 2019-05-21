@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ECF2</string>
+    <string name="pm_25">PM 25 : </string>
+    <string name="pm_10">PM 10 : </string>
+    <string name="aqicn">AQI CN :</string>
+    <string name="aqius">AQI US :</string>
+    <string name="action_settings">Settings</string>
+</resources>

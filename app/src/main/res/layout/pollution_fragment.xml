@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PollutionFragment">
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="City"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aqius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/aqius"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvAqius"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCity" />
+
+    <TextView
+        android:id="@+id/tvAqius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/aqius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/aqius"
+        app:layout_constraintTop_toTopOf="@+id/aqius" />
+
+    <TextView
+        android:id="@+id/aqicn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/aqicn"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/aqius"
+        app:layout_constraintStart_toStartOf="@+id/aqius"
+        app:layout_constraintTop_toBottomOf="@+id/aqius" />
+
+    <TextView
+        android:id="@+id/tvAqicn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/aqicn"
+        app:layout_constraintEnd_toEndOf="@+id/tvAqius"
+        app:layout_constraintStart_toStartOf="@+id/tvAqius"
+        app:layout_constraintTop_toTopOf="@+id/aqicn" />
+
+</android.support.constraint.ConstraintLayout>
